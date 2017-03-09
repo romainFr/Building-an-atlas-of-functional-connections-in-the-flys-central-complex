@@ -1,4 +1,3 @@
-figures/Figure1-MethodsOverview-2/Figure1-MethodsOverview-2.png
 untitled.html
 5f59.html
 figures/Figure2Beta/Figure2Beta.png
