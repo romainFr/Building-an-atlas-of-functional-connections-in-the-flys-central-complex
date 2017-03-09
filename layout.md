@@ -1,4 +1,6 @@
 untitled.html
+figures/Figure2Beta/Figure2Beta.png
+15682.html
 32fd.html
 1562e.html
 17fe5.html
