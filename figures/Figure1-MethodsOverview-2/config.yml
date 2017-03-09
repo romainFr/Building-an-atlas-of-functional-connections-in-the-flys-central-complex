@@ -1,4 +1,9 @@
 ---
-version: 1
+multicolumn: 
+export-width: 
 web-width: 800
+align: 
+float: 
+export-filename: 
+version: 1
 path: figures/Figure1-MethodsOverview-2/config.yml
