@@ -1,6 +1,5 @@
 untitled.html
 5f59.html
-figures/Figure1-MethodsOverview-1/Figure1-MethodsOverview-1.png
 9b7f.html
 15682.html
 32fd.html
