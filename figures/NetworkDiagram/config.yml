@@ -1,4 +1,9 @@
 ---
-version: 1
+multicolumn: 
+export-width: 
 web-width: '1500'
+align: 
+float: 
+export-filename: 
+version: 1
 path: figures/NetworkDiagram/config.yml
