@@ -1,4 +1,4 @@
 ---
 version: 1
-web-width: 800
+web-width: '2000'
 path: figures/NetworkDiagram/config.yml
