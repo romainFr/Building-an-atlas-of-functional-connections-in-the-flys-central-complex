@@ -8,6 +8,8 @@ figures/ResponseCharac/ResponseCharac.png
 figures/SuppFig2/SuppFig2.png
 b01c.html
 32fd.html
+figures/NetworkDiagram/NetworkDiagram.png
+f11f.html
 1562e.html
 17fe5.html
 13f0c.html
