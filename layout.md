@@ -7,7 +7,6 @@ figures/ResponseCharac/ResponseCharac.png
 866.html
 figures/SuppFig2/SuppFig2.png
 b01c.html
-32fd.html
 figures/NetworkDiagram/NetworkDiagram.png
 f11f.html
 1562e.html
