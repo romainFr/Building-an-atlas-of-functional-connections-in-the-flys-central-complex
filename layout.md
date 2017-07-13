@@ -9,6 +9,7 @@ figures/SuppFig2/SuppFig2.png
 b01c.html
 figures/NetworkDiagram/NetworkDiagram.png
 f11f.html
+figures/LinesAndTypes
 1562e.html
 17fe5.html
 13f0c.html
