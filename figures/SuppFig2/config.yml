@@ -1,9 +1,20 @@
 ---
+version: 2
 multicolumn: false
-export-width: 
 web-width: 500px
+export-width: 
 align: center
 float: h!
-export-filename: 
-version: 1
-path: figures/SuppFig2/config.yml
+grid:
+  rows: 1
+  columns: 1
+  grid_elements:
+  - url: "/users/14026/articles/155729/master/file/figures/SuppFig2/SuppFig2.png"
+    path: figures/SuppFig2/SuppFig2.png
+    type: static
+    from:
+    - 1
+    - 1
+    to:
+    - 1
+    - 1
