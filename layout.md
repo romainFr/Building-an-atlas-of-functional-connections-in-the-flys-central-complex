@@ -1,13 +1,13 @@
 untitled.html
 5f59.html
-figures/Figure1-MethodsOverview-1/Figure1-MethodsOverview-1.png
+figures/Figure1-MethodsOverview-1
 9b7f.html
 15682.html
-figures/ResponseCharac/ResponseCharac.png
+figures/ResponseCharac
 866.html
-figures/SuppFig2/SuppFig2.png
+figures/SuppFig2
 b01c.html
-figures/NetworkDiagram/NetworkDiagram.png
+figures/NetworkDiagram
 f11f.html
 figures/LinesAndTypes
 1562e.html
