@@ -1,9 +1,20 @@
 ---
+version: 2
 multicolumn: 
-export-width: 
 web-width: '1500'
+export-width: 
 align: 
 float: 
-export-filename: 
-version: 1
-path: figures/NetworkDiagram/config.yml
+grid:
+  rows: 1
+  columns: 1
+  grid_elements:
+  - url: "/users/14026/articles/155729/master/file/figures/NetworkDiagram/NetworkDiagram.png"
+    path: figures/NetworkDiagram/NetworkDiagram.png
+    type: static
+    from:
+    - 1
+    - 1
+    to:
+    - 1
+    - 1
