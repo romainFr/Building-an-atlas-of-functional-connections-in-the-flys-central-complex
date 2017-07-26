@@ -5,7 +5,6 @@ figures/Figure1-MethodsOverview-1
 15682.html
 figures/ResponseCharac
 866.html
-figures/SuppFig2
 b01c.html
 figures/NetworkDiagram
 f11f.html
