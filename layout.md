@@ -4,7 +4,6 @@ figures/Figure1-MethodsOverview-1
 15682.html
 figures/ResponseCharac
 866.html
-b01c.html
 figures/NetworkDiagram
 f11f.html
 figures/LinesAndTypes
