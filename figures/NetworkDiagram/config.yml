@@ -9,8 +9,8 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - url: "/users/14026/articles/155729/master/file/figures/NetworkDiagram/NetworkDiagram.png"
-    path: figures/NetworkDiagram/NetworkDiagram.png
+  - path: figures/NetworkDiagram/FireShot Capture 1 - A central complex function_
+      - https___romainfr.github.io_CX-Functional-Website_.png
     type: static
     from:
     - 1
@@ -18,3 +18,5 @@ grid:
     to:
     - 1
     - 1
+    folder_url: "/users/14026/articles/155729/master/folder/figures/NetworkDiagram"
+    url: "/users/14026/articles/155729/master/file/figures/NetworkDiagram/FireShot%20Capture%201%20-%20A%20central%20complex%20function_%20-%20https___romainfr.github.io_CX-Functional-Website_.png"
