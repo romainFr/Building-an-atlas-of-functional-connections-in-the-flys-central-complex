@@ -9,8 +9,7 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - url: "/users/14026/articles/155729/master/file/figures/Figure1-MethodsOverview-1/Figure1-MethodsOverview-1.png"
-    path: figures/Figure1-MethodsOverview-1/Figure1-MethodsOverview-1.png
+  - path: figures/Figure1-MethodsOverview-1/FigureProtocol.svg
     type: static
     from:
     - 1
@@ -18,3 +17,5 @@ grid:
     to:
     - 1
     - 1
+    folder_url: "/users/14026/articles/155729/master/folder/figures/Figure1-MethodsOverview-1"
+    url: "/users/14026/articles/155729/master/file/figures/Figure1-MethodsOverview-1/FigureProtocol.svg"
