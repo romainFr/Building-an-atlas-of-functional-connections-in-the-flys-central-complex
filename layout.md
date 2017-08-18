@@ -8,6 +8,8 @@ figures/ResponseCharac
 866.html
 figures/NetworkDiagram
 f11f.html
+figures/mat
+fv399u8b2v.html
 figures/LinesAndTypes
 1562e.html
 17fe5.html
