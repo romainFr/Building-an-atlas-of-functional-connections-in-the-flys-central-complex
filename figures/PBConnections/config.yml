@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: '5000'
+web-width: 500px
 align: center
 float: h!
 grid:
@@ -17,4 +17,3 @@ grid:
     - 1
     - 1
     url: "/users/14026/articles/155729/master/file/figures/PBConnections/PBConnections.svg"
-    folder_url: "/users/14026/articles/155729/master/folder/figures/PBConnections"
