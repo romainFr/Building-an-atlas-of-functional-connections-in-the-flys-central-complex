@@ -10,6 +10,8 @@ figures/NetworkDiagram
 f11f.html
 figures/mat
 fv399u8b2v.html
+figures/PBConnections
+878t3ut5a9o.html
 figures/LinesAndTypes
 1562e.html
 17fe5.html
