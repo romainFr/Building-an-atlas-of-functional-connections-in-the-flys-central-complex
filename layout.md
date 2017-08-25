@@ -6,7 +6,6 @@ figures/FigureDescription
 15682.html
 figures/ResponseCharac
 866.html
-figures/SuppFig2
 figures/NetworkDiagram
 f11f.html
 figures/mat
