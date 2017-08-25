@@ -30,12 +30,12 @@
      id="namedview68"
      showgrid="false"
      inkscape:zoom="0.59"
-     inkscape:cx="852.57847"
+     inkscape:cx="511.05305"
      inkscape:cy="1419.6153"
      inkscape:window-x="2625"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg66" />
+     inkscape:current-layer="g15033-1" />
   <metadata
      id="metadata72">
     <rdf:RDF>
@@ -7775,23 +7775,6 @@
        id="inkscape-table0I-2"
        height="39.378616" />
     <flowRoot
-       transform="translate(14.40678,3.3898305)"
-       id="inkscape-table0Q-8"
-       ns0:table-id="inkscape-table0-text"
-       ns0:row="0"
-       ns0:column="0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none"
-       xml:space="preserve"><flowRegion
-         style="fill:#808080;fill-opacity:1"
-         id="inkscape-table0rt-9"><rect
-           id="inkscape-table0K-73"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;text-anchor:start;fill:#808080;fill-opacity:1"
-           x="-827.11865"
-           y="694.91528"
-           width="141.73228"
-           height="35.433071" /></flowRegion><flowPara
-         style="font-size:18.66666603px;fill:#808080;fill-opacity:1"
-         id="inkscape-table0b-6">Peak fluorescence</flowPara></flowRoot>    <flowRoot
        transform="translate(13.076051,43.502083)"
        id="inkscape-table0Q-3-1"
        ns0:table-id="inkscape-table0-text"
@@ -8012,7 +7995,24 @@
            width="141.73228"
            height="35.433071" /></flowRegion><flowPara
          style="font-size:18.66666603px;fill:#808080;fill-opacity:1"
-         id="inkscape-table0b-5-2-7-6-4-8-6-5-4">-0.38</flowPara></flowRoot>  </g>
+         id="inkscape-table0b-5-2-7-6-4-8-6-5-4">-0.38</flowPara></flowRoot>    <flowRoot
+       transform="translate(14.40678,3.3898305)"
+       id="inkscape-table0Q-8"
+       ns0:table-id="inkscape-table0-text"
+       ns0:row="0"
+       ns0:column="0"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none"
+       xml:space="preserve"><flowRegion
+         style="fill:#808080;fill-opacity:1"
+         id="inkscape-table0rt-9"><rect
+           id="inkscape-table0K-73"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;text-anchor:start;fill:#808080;fill-opacity:1"
+           x="-827.11865"
+           y="694.91528"
+           width="141.73228"
+           height="35.433071" /></flowRegion><flowPara
+         style="font-size:18.66666603px;fill:#808080;fill-opacity:1"
+         id="inkscape-table0b-6">Peak fluorescence</flowPara></flowRoot>  </g>
   <g
      transform="translate(1145.9717,224.86649)"
      id="g15033-5">
