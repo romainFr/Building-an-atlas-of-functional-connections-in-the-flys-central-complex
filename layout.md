@@ -1,5 +1,4 @@
 untitled.html
-figures/Figure1-MethodsOverview-1
 figures/FigureDescription
 57flvg6jn6o.html
 9b7f.html
