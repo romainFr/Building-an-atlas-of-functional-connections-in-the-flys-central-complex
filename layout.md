@@ -4,7 +4,6 @@ figures/FigureDescription
 9b7f.html
 figures/FigureProtocol
 bvsi6e7cds8.html
-15682.html
 figures/ResponseCharac
 cujl4tn7dso.html
 figures/NetworkDiagram
