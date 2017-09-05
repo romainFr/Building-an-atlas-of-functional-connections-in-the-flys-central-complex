@@ -6,6 +6,7 @@ figures/FigureProtocol
 bvsi6e7cds8.html
 figures/ResponseCharac
 cujl4tn7dso.html
+figures/matIntegNorm
 k20saiucdt8.html
 figures/NetworkDiagram
 f11f.html
