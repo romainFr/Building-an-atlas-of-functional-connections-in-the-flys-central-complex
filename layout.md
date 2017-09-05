@@ -8,7 +8,6 @@ figures/ResponseCharac
 cujl4tn7dso.html
 figures/NetworkDiagram
 f11f.html
-figures/mat
 fv399u8b2v.html
 figures/PBConnections
 878t3ut5a9o.html
