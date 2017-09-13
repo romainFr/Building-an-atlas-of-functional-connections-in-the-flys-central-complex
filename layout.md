@@ -8,6 +8,9 @@ figures/ResponseCharac
 cujl4tn7dso.html
 figures/matIntegNorm
 vd3jimqoe4.html
+caol2b6r7fg.html
+a1ifhmv86fg.html
+st8dq7gl608.html
 k20saiucdt8.html
 figures/NetworkDiagram
 f11f.html
