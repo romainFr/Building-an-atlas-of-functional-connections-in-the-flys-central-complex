@@ -11,7 +11,6 @@ vd3jimqoe4.html
 k20saiucdt8.html
 figures/NetworkDiagram
 f11f.html
-fv399u8b2v.html
 figures/PBConnections
 878t3ut5a9o.html
 figures/LinesAndTypes
