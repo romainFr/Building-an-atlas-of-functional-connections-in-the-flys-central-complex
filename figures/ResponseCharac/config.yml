@@ -9,7 +9,7 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/ResponseCharac/FigureResponses.svg
+  - path: figures/ResponseCharac/FigureResponsesWIP.svg
     type: static
     from:
     - 1
@@ -18,4 +18,4 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/ResponseCharac"
-    url: "/users/14026/articles/155729/master/file/figures/ResponseCharac/FigureResponses.svg"
+    url: "/users/14026/articles/155729/master/file/figures/ResponseCharac/FigureResponsesWIP.svg"
