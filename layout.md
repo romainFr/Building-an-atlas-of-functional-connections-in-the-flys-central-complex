@@ -4,7 +4,6 @@ figures/FigureDescription
 9b7f.html
 figures/FigureProtocol
 bvsi6e7cds8.html
-figures/matDistance
 v7vt42a20n.html
 figures/ResponseCharac
 cujl4tn7dso.html
