@@ -20,3 +20,4 @@ figures/PBConnections
 figures/LinesAndTypes
 1562e.html
 17fe5.html
+figures/statistics_histograms
