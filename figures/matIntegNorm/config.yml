@@ -8,7 +8,7 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/matIntegNorm/figResults.svg
+  - path: figures/matIntegNorm/matDistance.svg
     type: static
     from:
     - 1
@@ -17,4 +17,4 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/matIntegNorm"
-    url: "/users/14026/articles/155729/master/file/figures/matIntegNorm/figResults.svg"
+    url: "/users/14026/articles/155729/master/file/figures/matIntegNorm/matDistance.svg"
