@@ -18,7 +18,6 @@ f11f.html
 41tvalofqt.html
 figures/PBConnections
 878t3ut5a9o.html
-mh9654jcnm8.html
 figures/LinesAndTypes
 1562e.html
 17fe5.html
