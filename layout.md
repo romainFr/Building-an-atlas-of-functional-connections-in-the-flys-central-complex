@@ -11,7 +11,6 @@ figures/matIntegNorm
 vd3jimqoe4.html
 caol2b6r7fg.html
 a1ifhmv86fg.html
-st8dq7gl608.html
 figures/PBConnections
 878t3ut5a9o.html
 tn83u8iog2o.html
