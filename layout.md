@@ -14,6 +14,8 @@ a1ifhmv86fg.html
 st8dq7gl608.html
 k20saiucdt8.html
 f11f.html
+40ce7t5cv1.html
+41tvalofqt.html
 figures/PBConnections
 878t3ut5a9o.html
 figures/LinesAndTypes
