@@ -9,7 +9,6 @@ figures/ResponseCharac
 cujl4tn7dso.html
 figures/matIntegNorm
 vd3jimqoe4.html
-a1ifhmv86fg.html
 figures/PBConnections
 878t3ut5a9o.html
 tn83u8iog2o.html
