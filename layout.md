@@ -11,7 +11,6 @@ figures/matIntegNorm
 vd3jimqoe4.html
 figures/PBConnections
 878t3ut5a9o.html
-9t7p5oirg7.tex
 kg4t4b0ulcg.html
 tn83u8iog2o.html
 figures/LinesAndTypes
