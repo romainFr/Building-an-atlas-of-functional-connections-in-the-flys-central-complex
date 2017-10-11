@@ -12,7 +12,6 @@ vd3jimqoe4.html
 figures/PBConnections
 878t3ut5a9o.html
 kg4t4b0ulcg.html
-tn83u8iog2o.html
 figures/LinesAndTypes
 1562e.html
 17fe5.html
