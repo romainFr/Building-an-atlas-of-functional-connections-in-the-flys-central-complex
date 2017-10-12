@@ -18,3 +18,5 @@ figures/statistics_histograms
 v41vknmcp3g.html
 figures/drugExamples
 aoh8c1kl92.html
+figures/baselineSIFig
+428upgi5fb.html
