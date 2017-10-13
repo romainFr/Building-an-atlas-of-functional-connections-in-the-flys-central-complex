@@ -22,3 +22,5 @@ figures/drugExamples
 aoh8c1kl92.html
 figures/baselineSIFig
 428upgi5fb.html
+figures/doseRespSI
+qkfhcd1844.html
