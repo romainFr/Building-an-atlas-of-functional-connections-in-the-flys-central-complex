@@ -26,3 +26,5 @@ figures/baselineSIFig
 428upgi5fb.html
 figures/doseRespSI
 qkfhcd1844.html
+figures/delta7SI
+tclda8997vg.html
