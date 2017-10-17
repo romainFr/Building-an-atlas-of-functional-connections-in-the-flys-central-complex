@@ -8,7 +8,7 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/drugExamples/drugExamples.svg
+  - path: figures/drugExamples/mecaSI.svg
     type: static
     from:
     - 1
@@ -16,5 +16,5 @@ grid:
     to:
     - 1
     - 1
-    url: "/users/14026/articles/155729/master/file/figures/drugExamples/drugExamples.svg"
     folder_url: "/users/14026/articles/155729/master/folder/figures/drugExamples"
+    url: "/users/14026/articles/155729/master/file/figures/drugExamples/mecaSI.svg"
