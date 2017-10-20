@@ -27,4 +27,3 @@ figures/baselineSIFig
 figures/doseRespSI
 qkfhcd1844.html
 figures/delta7SI
-tclda8997vg.html
