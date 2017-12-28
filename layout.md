@@ -10,7 +10,6 @@ figures/matIntegNorm
 vd3jimqoe4.html
 figures/PBConnections
 878t3ut5a9o.html
-odol2qs8rsg.html
 figures/LinesAndTypes
 1562e.html
 c7urra8mges.html
