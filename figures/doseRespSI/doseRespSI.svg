@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="main-svg"
+   width="600"
+   height="800"
+   viewBox="0 0 600 800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="doseRespSI.svg">
+  <metadata
+     id="metadata742">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1615"
+     inkscape:window-height="1026"
+     id="namedview740"
+     showgrid="false"
+     inkscape:zoom="0.834386"
+     inkscape:cx="300"
+     inkscape:cy="400"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1556" />
+  <defs
+     id="defs-6d3c55">
+    <g
+       class="clips"
+       id="g7">
+      <clipPath
+         class="plotclip"
+         id="clip6d3c55xyplot">
+        <rect
+           width="533.7926509186352"
+           height="726.1307961504812"
+           id="rect10" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clip6d3c55x">
+        <rect
+           x="62.27034120734908"
+           y="0"
+           width="533.7926509186352"
+           height="800"
+           id="rect13" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clip6d3c55y">
+        <rect
+           x="0"
+           y="23.740157480314956"
+           width="600"
+           height="726.1307961504812"
+           id="rect16" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clip6d3c55xy">
+        <rect
+           x="62.27034120734908"
+           y="23.740157480314956"
+           width="533.7926509186352"
+           height="726.1307961504812"
+           id="rect19" />
+      </clipPath>
+    </g>
+    <g
+       class="gradients"
+       id="g21" />
+  </defs>
+  <g
+     class="layer-below"
+     id="g27">
+    <g
+       class="imagelayer"
+       id="g29" />
+    <g
+       class="shapelayer"
+       id="g31" />
+  </g>
+  <g
+     class="cartesianlayer"
+     id="g33">
+    <g
+       class="subplot xy"
+       id="g35">
+      <g
+         class="layer-subplot"
+         id="g37">
+        <g
+           class="shapelayer"
+           id="g39" />
+        <g
+           class="imagelayer"
+           id="g41" />
+      </g>
+      <g
+         class="gridlayer"
+         transform="translate(62.27034120734908,23.740157480314956)"
+         id="g43">
+        <path
+           class="xgrid crisp"
+           d="M0,0v726.1307961504812"
+           transform="translate(17.22,0)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path45" />
+        <path
+           class="xgrid crisp"
+           d="M0,0v726.1307961504812"
+           transform="translate(86.1,0)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path47" />
+        <path
+           class="xgrid crisp"
+           d="M0,0v726.1307961504812"
+           transform="translate(172.19,0)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path49" />
+        <path
+           class="xgrid crisp"
+           d="M0,0v726.1307961504812"
+           transform="translate(344.38,0)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path51" />
+        <path
+           class="xgrid crisp"
+           d="M0,0v726.1307961504812"
+           transform="translate(516.57,0)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path53" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533.7926509186352"
+           transform="translate(0,705.58)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path55" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533.7926509186352"
+           transform="translate(0,534.32)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path57" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533.7926509186352"
+           transform="translate(0,363.07)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path59" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533.7926509186352"
+           transform="translate(0,191.81)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path61" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533.7926509186352"
+           transform="translate(0,20.55)"
+           style="stroke: rgb(102, 102, 102); stroke-opacity: 0.1; stroke-width: 0.5px;"
+           id="path63" />
+      </g>
+      <g
+         class="overgrid"
+         id="g65" />
+      <g
+         class="zerolinelayer"
+         transform="translate(62.27034120734908,23.740157480314956)"
+         id="g67" />
+      <g
+         class="overzero"
+         id="g69" />
+      <path
+         class="xlines-below"
+         id="path71" />
+      <path
+         class="ylines-below"
+         id="path73" />
+      <g
+         class="overlines-below"
+         id="g75" />
+      <g
+         class="xaxislayer-below"
+         id="g77" />
+      <g
+         class="yaxislayer-below"
+         id="g79" />
+      <g
+         class="overaxes-below"
+         id="g81" />
+      <g
+         class="plot"
+         transform="translate(62.27034120734908, 23.740157480314956)"
+         clip-path="url(#clip6d3c55xyplot)"
+         id="g83">
+        <g
+           class="imagelayer"
+           id="g85" />
+        <g
+           class="maplayer"
+           id="g87" />
+        <g
+           class="barlayer"
+           id="g89" />
+        <g
+           class="carpetlayer"
+           id="g91" />
+        <g
+           class="boxlayer"
+           id="g93" />
+        <g
+           class="scatterlayer"
+           id="g95">
+          <g
+             class="trace scatter traceaaa4bb"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g97">
+            <path
+               class="js-line"
+               d="M17.22,370L86.1,438.35L172.19,381.44L344.38,406.51L516.57,705.58"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path99" />
+            <g
+               class="points"
+               id="g101" />
+          </g>
+          <g
+             class="trace scatter trace49d99e"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g103">
+            <path
+               class="js-line"
+               d="M17.22,411.7L86.1,410.69L172.19,405.37L344.38,550.23L516.57,473.93"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path105" />
+            <g
+               class="points"
+               id="g107" />
+          </g>
+          <g
+             class="trace scatter trace1dad31"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g109">
+            <path
+               class="js-line"
+               d="M17.22,387.07L86.1,365.19L172.19,447.29L344.38,569.6L516.57,553.65"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path111" />
+            <g
+               class="points"
+               id="g113" />
+          </g>
+          <g
+             class="trace scatter traced9c1a9"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g115">
+            <path
+               class="js-line"
+               d="M17.22,382.17L86.1,393.27L172.19,423.5L344.38,508.38L516.57,594.17"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path117" />
+            <g
+               class="points"
+               id="g119" />
+          </g>
+          <g
+             class="trace scatter trace966e7a"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g121">
+            <path
+               class="js-line"
+               d="M17.22,379.62L86.1,367.08L172.19,368.33L344.38,413.07L516.57,443.83"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path123" />
+            <g
+               class="points"
+               id="g125" />
+          </g>
+          <g
+             class="trace scatter trace28a849"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g127">
+            <path
+               class="js-line"
+               d="M17.22,362.68L86.1,356.62L172.19,358.44L344.38,516.72L516.57,438.03"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path129" />
+            <g
+               class="points"
+               id="g131" />
+          </g>
+          <g
+             class="trace scatter trace430563"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g133">
+            <path
+               class="js-line"
+               d="M17.22,379.58L86.1,461.09L172.19,503.13L344.38,581.01L516.57,570.91"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path135" />
+            <g
+               class="points"
+               id="g137" />
+          </g>
+          <g
+             class="trace scatter tracecbed84"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g139">
+            <path
+               class="js-line"
+               d="M17.22,365.92L86.1,397.64L172.19,448.63L344.38,464.18L516.57,469.05"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path141" />
+            <g
+               class="points"
+               id="g143" />
+          </g>
+          <g
+             class="trace scatter trace1512c5"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g145">
+            <path
+               class="js-line"
+               d="M17.22,385.55L86.1,363.62L172.19,409.35L344.38,435.09L516.57,483.31"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path147" />
+            <g
+               class="points"
+               id="g149" />
+          </g>
+          <g
+             class="trace scatter trace90c023"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g151">
+            <path
+               class="js-line"
+               d="M17.22,361.69L172.19,363.58L344.38,361.87L516.57,362.71"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path153" />
+            <g
+               class="points"
+               id="g155" />
+          </g>
+          <g
+             class="trace scatter trace33008f"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g157">
+            <path
+               class="js-line"
+               d="M17.22,382.35L86.1,380.6L172.19,357.37L344.38,358.79L516.57,357.29"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path159" />
+            <g
+               class="points"
+               id="g161" />
+          </g>
+          <g
+             class="trace scatter tracef81ef5"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g163">
+            <path
+               class="js-line"
+               d="M17.22,364.06L86.1,360.89L172.19,361.55L344.38,369.21L516.57,362.72"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path165" />
+            <g
+               class="points"
+               id="g167" />
+          </g>
+          <g
+             class="trace scatter trace276723"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g169">
+            <path
+               class="js-line"
+               d="M17.22,362.29L86.1,362.99L172.19,362.1L516.57,362.4"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path171" />
+            <g
+               class="points"
+               id="g173" />
+          </g>
+          <g
+             class="trace scatter trace46c6e0"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g175">
+            <path
+               class="js-line"
+               d="M17.22,357.66L86.1,361.84L172.19,361.75L344.38,361.78L516.57,354.52"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path177" />
+            <g
+               class="points"
+               id="g179" />
+          </g>
+          <g
+             class="trace scatter tracec10539"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g181">
+            <path
+               class="js-line"
+               d="M17.22,378.5L86.1,361.65L172.19,394.63L344.38,353.43L516.57,361.59"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path183" />
+            <g
+               class="points"
+               id="g185" />
+          </g>
+          <g
+             class="trace scatter trace073a29"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g187">
+            <path
+               class="js-line"
+               d="M17.22,375.33L86.1,365.46L172.19,362.34L344.38,361.24L516.57,361.1"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path189" />
+            <g
+               class="points"
+               id="g191" />
+          </g>
+          <g
+             class="trace scatter traceac0ec3"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g193">
+            <path
+               class="js-line"
+               d="M17.22,362.3L86.1,358.05L172.19,354.25L344.38,342.68L516.57,340.62"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path195" />
+            <g
+               class="points"
+               id="g197" />
+          </g>
+          <g
+             class="trace scatter trace5e5c34"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g199">
+            <path
+               class="js-line"
+               d="M17.22,361.92L172.19,362.76L344.38,362.66L516.57,365.36"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path201" />
+            <g
+               class="points"
+               id="g203" />
+          </g>
+          <g
+             class="trace scatter trace5e31cb"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g205">
+            <path
+               class="js-line"
+               d="M17.22,362.79L86.1,361.62L172.19,362.65L516.57,362.2"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path207" />
+            <g
+               class="points"
+               id="g209" />
+          </g>
+          <g
+             class="trace scatter tracea7b6a8"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g211">
+            <path
+               class="js-line"
+               d="M17.22,362.39L86.1,361.1L172.19,362.2L516.57,361.2"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path213" />
+            <g
+               class="points"
+               id="g215" />
+          </g>
+          <g
+             class="trace scatter traced47a86"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g217">
+            <path
+               class="js-line"
+               d="M17.22,360.25L86.1,359.66L172.19,362.35L516.57,358.05"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path219" />
+            <g
+               class="points"
+               id="g221" />
+          </g>
+          <g
+             class="trace scatter tracee019b7"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g223">
+            <path
+               class="js-line"
+               d="M17.22,361.97L86.1,366.72L172.19,361.54L344.38,360.56L516.57,363.7"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path225" />
+            <g
+               class="points"
+               id="g227" />
+          </g>
+          <g
+             class="trace scatter trace8c2edb"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g229">
+            <path
+               class="js-line"
+               d="M17.22,361.8L86.1,362.07L172.19,360.29L344.38,360.89L516.57,360.38"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path231" />
+            <g
+               class="points"
+               id="g233" />
+          </g>
+          <g
+             class="trace scatter trace4878de"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g235">
+            <path
+               class="js-line"
+               d="M17.22,362.93L172.19,357.57L344.38,360.96L516.57,360.5"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path237" />
+            <g
+               class="points"
+               id="g239" />
+          </g>
+          <g
+             class="trace scatter trace309276"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g241">
+            <path
+               class="js-line"
+               d="M17.22,373.34L86.1,369.89L172.19,360.98L344.38,382.43L516.57,362.67"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path243" />
+            <g
+               class="points"
+               id="g245" />
+          </g>
+          <g
+             class="trace scatter trace00793b"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g247">
+            <path
+               class="js-line"
+               d="M17.22,365.45L86.1,369.13L172.19,362.8L516.57,359.78"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path249" />
+            <g
+               class="points"
+               id="g251" />
+          </g>
+          <g
+             class="trace scatter tracef101c8"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g253">
+            <path
+               class="js-line"
+               d="M17.22,361.73L86.1,354.75L172.19,350.34L344.38,358.17L516.57,356.59"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path255" />
+            <g
+               class="points"
+               id="g257" />
+          </g>
+          <g
+             class="trace scatter trace66621f"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g259">
+            <path
+               class="js-line"
+               d="M17.22,362.79L172.19,355.22L344.38,340.8L516.57,346.85"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path261" />
+            <g
+               class="points"
+               id="g263" />
+          </g>
+          <g
+             class="trace scatter trace5363c4"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g265">
+            <path
+               class="js-line"
+               d="M17.22,362.17L86.1,346.44L172.19,305.83L344.38,344.43L516.57,427.33"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path267" />
+            <g
+               class="points"
+               id="g269" />
+          </g>
+          <g
+             class="trace scatter tracea63b6c"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g271">
+            <path
+               class="js-line"
+               d="M17.22,366.99L86.1,365.5L172.19,369.37L344.38,376L516.57,396.87"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path273" />
+            <g
+               class="points"
+               id="g275" />
+          </g>
+          <g
+             class="trace scatter trace68eec4"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g277">
+            <path
+               class="js-line"
+               d="M17.22,362.13L86.1,362.37L172.19,361.4L516.57,361.49"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path279" />
+            <g
+               class="points"
+               id="g281" />
+          </g>
+          <g
+             class="trace scatter trace746291"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g283">
+            <path
+               class="js-line"
+               d="M17.22,362.62L86.1,360.96L172.19,360.81L344.38,353.65L516.57,351.32"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path285" />
+            <g
+               class="points"
+               id="g287" />
+          </g>
+          <g
+             class="trace scatter tracef894bb"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g289">
+            <path
+               class="js-line"
+               d="M17.22,361.76L86.1,357.51L172.19,347.85L344.38,330.62L516.57,327.79"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path291" />
+            <g
+               class="points"
+               id="g293" />
+          </g>
+          <g
+             class="trace scatter trace2f3505"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g295">
+            <path
+               class="js-line"
+               d="M17.22,362.78L86.1,363.24L172.19,362.53L516.57,362.08"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path297" />
+            <g
+               class="points"
+               id="g299" />
+          </g>
+          <g
+             class="trace scatter trace63cd83"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g301">
+            <path
+               class="js-line"
+               d="M17.22,361.17L86.1,353.44L172.19,358.99L344.38,335.96L516.57,295.11"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path303" />
+            <g
+               class="points"
+               id="g305" />
+          </g>
+          <g
+             class="trace scatter trace245c90"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g307">
+            <path
+               class="js-line"
+               d="M17.22,362.97L86.1,367.85L172.19,361.76L344.38,362.36L516.57,366.56"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path309" />
+            <g
+               class="points"
+               id="g311" />
+          </g>
+          <g
+             class="trace scatter trace676e3d"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g313">
+            <path
+               class="js-line"
+               d="M17.22,361.43L86.1,361.68L172.19,366.5L344.38,366.27L516.57,369.66"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path315" />
+            <g
+               class="points"
+               id="g317" />
+          </g>
+          <g
+             class="trace scatter tracec4bcd3"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g319">
+            <path
+               class="js-line"
+               d="M17.22,367.11L86.1,362.59L172.19,361.29L516.57,362.82"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path321" />
+            <g
+               class="points"
+               id="g323" />
+          </g>
+          <g
+             class="trace scatter trace3c2588"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g325">
+            <path
+               class="js-line"
+               d="M17.22,361.22L86.1,358.54L172.19,361.86L344.38,358.74L516.57,360.32"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path327" />
+            <g
+               class="points"
+               id="g329" />
+          </g>
+          <g
+             class="trace scatter tracea4dce7"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g331">
+            <path
+               class="js-line"
+               d="M17.22,381.67L86.1,362.96L172.19,364.42L344.38,357.82L516.57,350.03"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path333" />
+            <g
+               class="points"
+               id="g335" />
+          </g>
+          <g
+             class="trace scatter trace59338a"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g337">
+            <path
+               class="js-line"
+               d="M17.22,425.16L86.1,356.74L172.19,354.22L344.38,390.45L516.57,352.89"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path339" />
+            <g
+               class="points"
+               id="g341" />
+          </g>
+          <g
+             class="trace scatter trace01cd05"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g343">
+            <path
+               class="js-line"
+               d="M17.22,361.03L172.19,360.65L344.38,358.4L516.57,361.87"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path345" />
+            <g
+               class="points"
+               id="g347" />
+          </g>
+          <g
+             class="trace scatter trace902d22"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g349">
+            <path
+               class="js-line"
+               d="M17.22,370.83L86.1,364.3L172.19,379.8L344.38,393.83L516.57,361.22"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path351" />
+            <g
+               class="points"
+               id="g353" />
+          </g>
+          <g
+             class="trace scatter traceeaaa4b"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g355">
+            <path
+               class="js-line"
+               d="M17.22,358.51L86.1,361.83L172.19,361.07L344.38,334.62L516.57,358.86"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path357" />
+            <g
+               class="points"
+               id="g359" />
+          </g>
+          <g
+             class="trace scatter tracedb8663"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g361">
+            <path
+               class="js-line"
+               d="M17.22,359.07L86.1,357.77L172.19,345.34L344.38,339.07L516.57,329.14"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path363" />
+            <g
+               class="points"
+               id="g365" />
+          </g>
+          <g
+             class="trace scatter trace0f410f"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g367">
+            <path
+               class="js-line"
+               d="M17.22,363.16L86.1,354.56L172.19,359.19L344.38,362.57L516.57,343.33"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path369" />
+            <g
+               class="points"
+               id="g371" />
+          </g>
+          <g
+             class="trace scatter trace920f03"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g373">
+            <path
+               class="js-line"
+               d="M17.22,362.68L172.19,358.33L344.38,349.8L516.57,341.64"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path375" />
+            <g
+               class="points"
+               id="g377" />
+          </g>
+          <g
+             class="trace scatter trace05dbae"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g379">
+            <path
+               class="js-line"
+               d="M17.22,357.76L86.1,353.42L172.19,340.99L344.38,341.71L516.57,350.19"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path381" />
+            <g
+               class="points"
+               id="g383" />
+          </g>
+          <g
+             class="trace scatter trace2574b3"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g385">
+            <path
+               class="js-line"
+               d="M17.22,362.64L86.1,364.62L172.19,387.47L344.38,362.51L516.57,362.55"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path387" />
+            <g
+               class="points"
+               id="g389" />
+          </g>
+          <g
+             class="trace scatter trace26807e"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g391">
+            <path
+               class="js-line"
+               d="M17.22,364.97L86.1,359.14L172.19,362.88L344.38,366.02L516.57,354.57"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path393" />
+            <g
+               class="points"
+               id="g395" />
+          </g>
+          <g
+             class="trace scatter tracefb5e70"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g397">
+            <path
+               class="js-line"
+               d="M17.22,362.61L86.1,373.22L172.19,362.12L344.38,362.69L516.57,360.94"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path399" />
+            <g
+               class="points"
+               id="g401" />
+          </g>
+          <g
+             class="trace scatter tracecd1689"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g403">
+            <path
+               class="js-line"
+               d="M17.22,374.48L86.1,361.5L172.19,352.94L344.38,360.91L516.57,360.53"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path405" />
+            <g
+               class="points"
+               id="g407" />
+          </g>
+          <g
+             class="trace scatter trace42608e"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g409">
+            <path
+               class="js-line"
+               d="M17.22,360.62L86.1,362.65L172.19,360.4L344.38,362.5L516.57,362.74"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path411" />
+            <g
+               class="points"
+               id="g413" />
+          </g>
+          <g
+             class="trace scatter tracecb0d03"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g415">
+            <path
+               class="js-line"
+               d="M17.22,362.57L86.1,362.86L172.19,373.31L344.38,381.75L516.57,372.29"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path417" />
+            <g
+               class="points"
+               id="g419" />
+          </g>
+          <g
+             class="trace scatter tracec4a712"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g421">
+            <path
+               class="js-line"
+               d="M17.22,364.47L86.1,363.87L172.19,373.19L344.38,362.57L516.57,366.57"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path423" />
+            <g
+               class="points"
+               id="g425" />
+          </g>
+          <g
+             class="trace scatter trace3852f6"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g427">
+            <path
+               class="js-line"
+               d="M17.22,361.5L86.1,362.8L172.19,361.45L344.38,361.48L516.57,369.91"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path429" />
+            <g
+               class="points"
+               id="g431" />
+          </g>
+          <g
+             class="trace scatter tracef9d0a3"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g433">
+            <path
+               class="js-line"
+               d="M17.22,356.22L86.1,346.56L172.19,335.89L344.38,316.19L516.57,271.3"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path435" />
+            <g
+               class="points"
+               id="g437" />
+          </g>
+          <g
+             class="trace scatter traced081a9"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g439">
+            <path
+               class="js-line"
+               d="M17.22,360.72L86.1,354.22L172.19,312.3L344.38,287.2L516.57,297.9"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path441" />
+            <g
+               class="points"
+               id="g443" />
+          </g>
+          <g
+             class="trace scatter trace5e2a86"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g445">
+            <path
+               class="js-line"
+               d="M17.22,355.51L86.1,339.07L172.19,320.13L344.38,261.2L516.57,290.23"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path447" />
+            <g
+               class="points"
+               id="g449" />
+          </g>
+          <g
+             class="trace scatter trace2d8603"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g451">
+            <path
+               class="js-line"
+               d="M17.22,361.19L86.1,350L172.19,318.31L344.38,68.2L516.57,108.21"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path453" />
+            <g
+               class="points"
+               id="g455" />
+          </g>
+          <g
+             class="trace scatter trace1949cb"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g457">
+            <path
+               class="js-line"
+               d="M17.22,360.69L86.1,346.38L172.19,334.27L344.38,309.51L516.57,305.66"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path459" />
+            <g
+               class="points"
+               id="g461" />
+          </g>
+          <g
+             class="trace scatter trace3df44b"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g463">
+            <path
+               class="js-line"
+               d="M17.22,361.78L86.1,336.53L172.19,313.97L344.38,187.49L516.57,128.52"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path465" />
+            <g
+               class="points"
+               id="g467" />
+          </g>
+          <g
+             class="trace scatter trace22451d"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g469">
+            <path
+               class="js-line"
+               d="M17.22,353.03L86.1,317.1L172.19,295.58L344.38,226.58L516.57,228.07"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path471" />
+            <g
+               class="points"
+               id="g473" />
+          </g>
+          <g
+             class="trace scatter tracedde3be"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g475">
+            <path
+               class="js-line"
+               d="M17.22,343.61L86.1,323.27L172.19,261.4L344.38,258.35L516.57,313.16"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path477" />
+            <g
+               class="points"
+               id="g479" />
+          </g>
+          <g
+             class="trace scatter trace3208a1"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g481">
+            <path
+               class="js-line"
+               d="M17.22,360.17L86.1,339.8L172.19,336.81L344.38,323.73L516.57,300.5"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path483" />
+            <g
+               class="points"
+               id="g485" />
+          </g>
+          <g
+             class="trace scatter tracedb6ce9"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g487">
+            <path
+               class="js-line"
+               d="M17.22,348.61L86.1,246.36L172.19,121.81L344.38,208.26L516.57,149.53"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path489" />
+            <g
+               class="points"
+               id="g491" />
+          </g>
+          <g
+             class="trace scatter trace885526"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g493">
+            <path
+               class="js-line"
+               d="M17.22,372.11L86.1,351.47L172.19,356.29L344.38,315.17L516.57,325.47"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path495" />
+            <g
+               class="points"
+               id="g497" />
+          </g>
+          <g
+             class="trace scatter trace68e0a0"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g499">
+            <path
+               class="js-line"
+               d="M17.22,349.73L86.1,308.35L172.19,261.37L344.38,235.01L516.57,164.83"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path501" />
+            <g
+               class="points"
+               id="g503" />
+          </g>
+          <g
+             class="trace scatter trace8e35ad"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g505">
+            <path
+               class="js-line"
+               d="M17.22,357.85L86.1,354.02L172.19,339.55L344.38,292.6L516.57,283.65"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path507" />
+            <g
+               class="points"
+               id="g509" />
+          </g>
+          <g
+             class="trace scatter tracea5376d"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g511">
+            <path
+               class="js-line"
+               d="M17.22,354.07L86.1,326.2L172.19,338.5L344.38,20.55L516.57,226.36"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 0.3; stroke-width: 1px; opacity: 1;"
+               id="path513" />
+            <g
+               class="points"
+               id="g515" />
+          </g>
+          <g
+             class="trace scatter trace6b275b"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g517">
+            <path
+               class="js-line"
+               d="M17.22,380.48L86.1,394.84L172.19,416.16L344.38,493.87L516.57,525.83"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 255); stroke-opacity: 1; stroke-width: 4px; opacity: 1;"
+               id="path519" />
+            <g
+               class="points"
+               id="g521" />
+          </g>
+          <g
+             class="trace scatter trace44f469"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g523">
+            <path
+               class="js-line"
+               d="M17.22,385.32L17.22,375.64"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path525" />
+            <path
+               class="js-line"
+               d="M86.1,406.99L86.1,382.69"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path527" />
+            <path
+               class="js-line"
+               d="M172.19,431.36L172.19,400.97"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path529" />
+            <path
+               class="js-line"
+               d="M344.38,516.15L344.38,471.59"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path531" />
+            <path
+               class="js-line"
+               d="M516.57,555.16L516.57,496.5"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path533" />
+            <g
+               class="points"
+               id="g535">
+              <path
+                 class="point"
+                 transform="translate(17.22,385.32)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path537" />
+              <path
+                 class="point"
+                 transform="translate(17.22,375.64)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path539" />
+              <path
+                 class="point"
+                 transform="translate(86.1,406.99)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path541" />
+              <path
+                 class="point"
+                 transform="translate(86.1,382.69)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path543" />
+              <path
+                 class="point"
+                 transform="translate(172.19,431.36)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path545" />
+              <path
+                 class="point"
+                 transform="translate(172.19,400.97)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path547" />
+              <path
+                 class="point"
+                 transform="translate(344.38,516.15)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path549" />
+              <path
+                 class="point"
+                 transform="translate(344.38,471.59)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path551" />
+              <path
+                 class="point"
+                 transform="translate(516.57,555.16)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path553" />
+              <path
+                 class="point"
+                 transform="translate(516.57,496.5)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(0, 0, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path555" />
+            </g>
+          </g>
+          <g
+             class="trace scatter tracea2be99"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g557">
+            <path
+               class="js-line"
+               d="M17.22,365.69L86.1,361.81L172.19,360.69L516.57,358.74"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(179, 179, 179); stroke-opacity: 1; stroke-width: 4px; opacity: 1;"
+               id="path559" />
+            <g
+               class="points"
+               id="g561" />
+          </g>
+          <g
+             class="trace scatter traced0d033"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g563">
+            <path
+               class="js-line"
+               d="M17.22,367.23L17.22,364.16"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path565" />
+            <path
+               class="js-line"
+               d="M86.1,362.59L86.1,361.04"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path567" />
+            <path
+               class="js-line"
+               d="M172.19,362.46L172.19,358.91"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path569" />
+            <path
+               class="js-line"
+               d="M344.38,361.58L344.38,357.85"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path571" />
+            <path
+               class="js-line"
+               d="M516.57,361.3L516.57,356.18"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path573" />
+            <g
+               class="points"
+               id="g575">
+              <path
+                 class="point"
+                 transform="translate(17.22,367.23)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path577" />
+              <path
+                 class="point"
+                 transform="translate(17.22,364.16)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path579" />
+              <path
+                 class="point"
+                 transform="translate(86.1,362.59)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path581" />
+              <path
+                 class="point"
+                 transform="translate(86.1,361.04)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path583" />
+              <path
+                 class="point"
+                 transform="translate(172.19,362.46)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path585" />
+              <path
+                 class="point"
+                 transform="translate(172.19,358.91)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path587" />
+              <path
+                 class="point"
+                 transform="translate(344.38,361.58)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path589" />
+              <path
+                 class="point"
+                 transform="translate(344.38,357.85)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path591" />
+              <path
+                 class="point"
+                 transform="translate(516.57,361.3)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path593" />
+              <path
+                 class="point"
+                 transform="translate(516.57,356.18)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(179, 179, 179); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path595" />
+            </g>
+          </g>
+          <g
+             class="trace scatter trace254d14"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g597">
+            <path
+               class="js-line"
+               d="M17.22,356.81L86.1,331.38L172.19,303.3L344.38,236.43L516.57,242.39"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(255, 0, 0); stroke-opacity: 1; stroke-width: 4px; opacity: 1;"
+               id="path599" />
+            <g
+               class="points"
+               id="g601" />
+          </g>
+          <g
+             class="trace scatter tracea7ec4c"
+             style="stroke-miterlimit: 2; opacity: 1;"
+             id="g603">
+            <path
+               class="js-line"
+               d="M17.22,358.67L17.22,354.94"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path605" />
+            <path
+               class="js-line"
+               d="M86.1,338.96L86.1,323.8"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path607" />
+            <path
+               class="js-line"
+               d="M172.19,319.15L172.19,287.45"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path609" />
+            <path
+               class="js-line"
+               d="M344.38,261.08L344.38,211.79"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path611" />
+            <path
+               class="js-line"
+               d="M516.57,262.45L516.57,222.32"
+               style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1px; opacity: 1;"
+               id="path613" />
+            <g
+               class="points"
+               id="g615">
+              <path
+                 class="point"
+                 transform="translate(17.22,358.67)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path617" />
+              <path
+                 class="point"
+                 transform="translate(17.22,354.94)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path619" />
+              <path
+                 class="point"
+                 transform="translate(86.1,338.96)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path621" />
+              <path
+                 class="point"
+                 transform="translate(86.1,323.8)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path623" />
+              <path
+                 class="point"
+                 transform="translate(172.19,319.15)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path625" />
+              <path
+                 class="point"
+                 transform="translate(172.19,287.45)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path627" />
+              <path
+                 class="point"
+                 transform="translate(344.38,261.08)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path629" />
+              <path
+                 class="point"
+                 transform="translate(344.38,211.79)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path631" />
+              <path
+                 class="point"
+                 transform="translate(516.57,262.45)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path633" />
+              <path
+                 class="point"
+                 transform="translate(516.57,222.32)"
+                 d="M5.6,0H-5.6"
+                 style="opacity: 1; stroke-width: 1px; fill: rgb(255, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1;"
+                 id="path635" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         class="overplot"
+         id="g637" />
+      <path
+         class="xlines-above crisp"
+         transform="translate(62.27034120734908,23.740157480314956)"
+         d="M-1,726.6307961504812H533.7926509186352"
+         style="fill: none; stroke-width: 1px; stroke: rgb(127, 127, 127); stroke-opacity: 1;"
+         id="path639" />
+      <path
+         class="ylines-above crisp"
+         transform="translate(62.27034120734908,23.740157480314956)"
+         d="M-0.5,0V726.1307961504812"
+         style="fill: none; stroke-width: 1px; stroke: rgb(127, 127, 127); stroke-opacity: 1;"
+         id="path641" />
+      <g
+         class="overlines-above"
+         id="g643" />
+      <g
+         class="xaxislayer-above"
+         transform="translate(62.27034120734908,23.740157480314956)"
+         id="g645">
+        <path
+           class="xtick ticks crisp"
+           d="M0,726.1307961504812v-5"
+           transform="translate(17.22,0)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path647" />
+        <path
+           class="xtick ticks crisp"
+           d="M0,726.1307961504812v-5"
+           transform="translate(86.1,0)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path649" />
+        <path
+           class="xtick ticks crisp"
+           d="M0,726.1307961504812v-5"
+           transform="translate(172.19,0)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path651" />
+        <path
+           class="xtick ticks crisp"
+           d="M0,726.1307961504812v-5"
+           transform="translate(344.38,0)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path653" />
+        <path
+           class="xtick ticks crisp"
+           d="M0,726.1307961504812v-5"
+           transform="translate(516.57,0)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path655" />
+        <g
+           class="xtick"
+           id="g657">
+          <text
+             x="0"
+             y="743.9307961504811"
+             transform="translate(17.22,0)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text659"
+             text-anchor="middle">1</text>
+        </g>
+        <g
+           class="xtick"
+           id="g661">
+          <text
+             x="0"
+             y="743.9307961504811"
+             transform="translate(86.1,0)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text663"
+             text-anchor="middle">5</text>
+        </g>
+        <g
+           class="xtick"
+           id="g665">
+          <text
+             x="0"
+             y="743.9307961504811"
+             transform="translate(172.19,0)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text667"
+             text-anchor="middle">10</text>
+        </g>
+        <g
+           class="xtick"
+           id="g669">
+          <text
+             x="0"
+             y="743.9307961504811"
+             transform="translate(344.38,0)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text671"
+             text-anchor="middle">20</text>
+        </g>
+        <g
+           class="xtick"
+           id="g673">
+          <text
+             x="0"
+             y="743.9307961504811"
+             transform="translate(516.57,0)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text675"
+             text-anchor="middle">30</text>
+        </g>
+      </g>
+      <g
+         class="yaxislayer-above"
+         transform="translate(62.27034120734908,23.740157480314956)"
+         id="g677">
+        <path
+           class="ytick ticks crisp"
+           d="M0,0h5"
+           transform="translate(0,705.58)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path679" />
+        <path
+           class="ytick ticks crisp"
+           d="M0,0h5"
+           transform="translate(0,534.32)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path681" />
+        <path
+           class="ytick ticks crisp"
+           d="M0,0h5"
+           transform="translate(0,363.07)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path683" />
+        <path
+           class="ytick ticks crisp"
+           d="M0,0h5"
+           transform="translate(0,191.81)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path685" />
+        <path
+           class="ytick ticks crisp"
+           d="M0,0h5"
+           transform="translate(0,20.55)"
+           style="stroke: rgb(127, 127, 127); stroke-opacity: 1; stroke-width: 1px;"
+           id="path687" />
+        <g
+           class="ytick"
+           id="g689">
+          <text
+             x="-3.8000000000000003"
+             y="4.8999999999999995"
+             transform="translate(0,705.58)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text691"
+             text-anchor="end">-1.0</text>
+        </g>
+        <g
+           class="ytick"
+           id="g693">
+          <text
+             x="-3.8000000000000003"
+             y="4.8999999999999995"
+             transform="translate(0,534.32)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text695"
+             text-anchor="end">-0.5</text>
+        </g>
+        <g
+           class="ytick"
+           id="g697">
+          <text
+             x="-3.8000000000000003"
+             y="4.8999999999999995"
+             transform="translate(0,363.07)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text699"
+             text-anchor="end">0.0</text>
+        </g>
+        <g
+           class="ytick"
+           id="g701">
+          <text
+             x="-3.8000000000000003"
+             y="4.8999999999999995"
+             transform="translate(0,191.81)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text703"
+             text-anchor="end">0.5</text>
+        </g>
+        <g
+           class="ytick"
+           id="g705">
+          <text
+             x="-3.8000000000000003"
+             y="4.8999999999999995"
+             transform="translate(0,20.55)"
+             style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); fill-opacity: 1; white-space: pre;"
+             id="text707"
+             text-anchor="end">1.0</text>
+        </g>
+      </g>
+      <g
+         class="overaxes-above"
+         id="g709" />
+    </g>
+  </g>
+  <g
+     class="ternarylayer"
+     id="g711" />
+  <g
+     class="geolayer"
+     id="g713" />
+  <g
+     class="layer-above"
+     id="g715">
+    <g
+       class="imagelayer"
+       id="g717" />
+    <g
+       class="shapelayer"
+       id="g719" />
+  </g>
+  <g
+     class="pielayer"
+     id="g721" />
+  <g
+     class="glimages"
+     id="g723" />
+  <defs
+     id="topdefs-6d3c55">
+    <g
+       class="clips"
+       id="g726" />
+  </defs>
+  <g
+     class="infolayer"
+     id="g728">
+    <g
+       class="g-gtitle"
+       id="g730" />
+    <g
+       class="g-xtitle"
+       transform="translate(0,-4.870953630796066)"
+       id="g732">
+      <text
+         class="xtitle"
+         x="329.1666666666667"
+         y="801.8709536307961"
+         text-anchor="middle"
+         style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); opacity: 1; font-weight: normal; white-space: pre;"
+         id="text734">Number of stimulation pulses</text>
+    </g>
+    <g
+       class="g-ytitle"
+       id="g736">
+      <text
+         class="ytitle"
+         transform="rotate(-90,24.270341207349077,386.80555555555554) translate(0, 0)"
+         x="24.270341207349077"
+         y="386.80555555555554"
+         text-anchor="middle"
+         style="font-family: 'DejaVu Sans'; font-size: 14px; fill: rgb(128, 128, 128); opacity: 1; font-weight: normal; white-space: pre;"
+         id="text738">Scaled normalized response integral</text>
+    </g>
+  </g>
+  <g
+     id="g1556"
+     transform="translate(-352.70656,146.96262)">
+    <g
+       transform="translate(376.72741,-854.17069)"
+       class="xtick"
+       id="g259-7">
+      <text
+         x="177.80008"
+         y="739.80957"
+         style="font-size:17px;font-family:'DejaVu Sans';text-anchor:middle;white-space:pre;fill:#808080;fill-opacity:1"
+         id="text257-5">
+        <tspan
+           style="font-size:14px"
+           id="tspan4092">
+Excitatory responses</tspan>
+      </text>
+    </g>
+    <text
+       id="text257-5-5"
+       style="font-size:17px;font-family:'DejaVu Sans';text-anchor:middle;white-space:pre;fill:#808080;fill-opacity:1"
+       y="-50.658264"
+       x="552.5177">
+      <tspan
+         style="font-size:14px"
+         id="tspan4098">Inhibitory responses
+</tspan>
+    </text>
+    <g
+       id="g259-7-6"
+       class="xtick"
+       transform="translate(350.90124,-832.65826)">
+      <text
+         id="text257-5-2"
+         style="font-size:17px;font-family:'DejaVu Sans';text-anchor:middle;white-space:pre;fill:#808080;fill-opacity:1"
+         y="739.80957"
+         x="177.80008">
+        <tspan
+           style="font-size:14px"
+           id="tspan4094">
+No responses</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1158"
+       d="m 435.64968,-103.47075 34.7561,0"
+       style="fill:none;fill-rule:evenodd;stroke:#ff2a2a;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1158-3"
+       d="m 435.64968,-78.995659 34.7561,0"
+       style="fill:none;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1158-6"
+       d="m 435.64968,-54.520569 34.7561,0"
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
