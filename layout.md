@@ -18,7 +18,6 @@ qk64mmcvtno.html
 figures/statistics_histograms
 v41vknmcp3g.html
 figures/drugExamples
-aoh8c1kl92.html
 figures/picroSI
 1sln5hkm5o.html
 figures/baselineSIFig
