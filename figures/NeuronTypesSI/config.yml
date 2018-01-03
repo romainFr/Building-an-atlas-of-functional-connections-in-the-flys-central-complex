@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: 800
+web-width: '906'
 align: center
 float: h!
 grid:
@@ -18,4 +18,4 @@ grid:
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/NeuronTypesSI"
     url: "/users/14026/articles/155729/master/file/figures/NeuronTypesSI/NeuronTypesSI.svg"
-export-width: '800'
+export-width: '906'
