@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: '1310'
+web-width: '1392'
 align: center
 float: h!
 grid:
@@ -18,4 +18,4 @@ grid:
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/matIntegNorm"
     url: "/users/14026/articles/155729/master/file/figures/matIntegNorm/figResults.svg"
-export-width: '1310'
+export-width: '1392'
