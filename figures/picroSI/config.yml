@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: '2500'
+web-width: '1000'
 align: center
 float: h!
 grid:
@@ -18,3 +18,4 @@ grid:
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/picroSI"
     url: "/users/14026/articles/155729/master/file/figures/picroSI/picroSI.svg"
+export-width: '1000'
