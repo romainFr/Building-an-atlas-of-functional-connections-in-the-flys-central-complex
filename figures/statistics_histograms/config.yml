@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: '2500'
+web-width: '800'
 align: center
 float: h!
 grid:
@@ -18,3 +18,4 @@ grid:
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/statistics_histograms"
     url: "/users/14026/articles/155729/master/file/figures/statistics_histograms/statistics_histograms_SI.svg"
+export-width: '800'
