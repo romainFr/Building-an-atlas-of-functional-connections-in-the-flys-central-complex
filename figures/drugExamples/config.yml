@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: '1200'
+web-width: '1000'
 align: center
 float: h!
 grid:
@@ -18,4 +18,4 @@ grid:
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/drugExamples"
     url: "/users/14026/articles/155729/master/file/figures/drugExamples/mecaSI.svg"
-export-width: '1200'
+export-width: '1000'
