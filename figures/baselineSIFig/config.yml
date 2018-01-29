@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: '1500'
+web-width: '800'
 align: center
 float: h!
 grid:
@@ -18,3 +18,4 @@ grid:
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/baselineSIFig"
     url: "/users/14026/articles/155729/master/file/figures/baselineSIFig/baselineSIFig.html"
+export-width: '800'
