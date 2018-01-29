@@ -8,7 +8,7 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/picroSI/picroSI.svg
+  - path: figures/picroSI/picroPlots.svg
     type: static
     from:
     - 1
@@ -17,5 +17,5 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/picroSI"
-    url: "/users/14026/articles/155729/master/file/figures/picroSI/picroSI.svg"
+    url: "/users/14026/articles/155729/master/file/figures/picroSI/picroPlots.svg"
 export-width: '1000'
