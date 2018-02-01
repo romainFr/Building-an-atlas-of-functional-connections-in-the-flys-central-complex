@@ -519,7 +519,7 @@ function makeMatrixPlot(metric){
       $(this).css("stroke-width",$(this).data("virtualwidth"));
       })
 
-      Snap.load("images/CXSchematicAnnotatedWithNeurons.svg",function(f){
+      Snap.load("CXSchematicAnnotatedWithNeurons.svg",function(f){
     // This is the neuropile drawing, which has some attributes we'll need
     const CX = f.select("g[id='central complex']");
     const CX_TRANS = CX.attr("transform");
