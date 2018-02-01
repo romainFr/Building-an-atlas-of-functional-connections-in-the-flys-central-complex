@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: 
-web-width: '1097'
+web-width: '800'
 export-width: '400'
 align: 
 float: 
