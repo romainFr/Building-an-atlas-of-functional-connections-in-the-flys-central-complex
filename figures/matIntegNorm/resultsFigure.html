@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+
+    <title>Results figure</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Loading plot.ly and snap.svg -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+ 
+    <!-- Loading bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+   <!-- Pictograms -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Style sheet for neurons and connector classes-->
+    <style>
+      /* Colors definitions */
+:root {
+    --excitatory-color: #B88784;
+    --inhibitory-color: #4E9496;
+    --pre-color: #928479;
+    --post-color: #7C8FA3;
+    --mixt-color: #b0b39f;
+    --highlight-color: #43433b;
+}
+
+/* Legends */
+#preLegend{
+    fill: var(--pre-color);
+}
+
+#postLegend{
+    fill: var(--post-color);
+}
+
+#mixedLegend{
+    fill: var(--mixt-color);
+}
+
+/*Buttons (bootstrap modifs)*/
+.btn-outline-warning,.btn-outline-warning.active{
+    color: var(--pre-color);
+    border-color: var(--pre-color);
+}
+
+.btn-outline-warning:hover,
+.btn-outline-warning:active,
+.btn-outline-warning:focus,
+.btn-outline-warning:active:focus,
+.show > .btn-outline-warning.dropdown-toggle{
+    background: var(--pre-color);
+    border-color: var(--pre-color);
+    color: white;
+    box-shadow: none;
+}
+
+.btn-outline-info:hover,
+.btn-outline-info:active,
+.btn-outline-info:focus,
+.btn-outline-info.active,
+.btn-outline-info:active:focus,
+.show > .btn-outline-info.dropdown-toggle{
+    background: var(--post-color);
+    border-color: var(--post-color);
+    color: white;
+    box-shadow: none;
+}
+    
+.btn-outline-info{
+    color: var(--post-color);
+    border-color: var(--post-color);
+}
+
+
+/* Neuropiles*/
+
+.neuropile,  .neuropile-diagram{
+    fill-opacity: 1;
+    fill: var(--mixt-color);
+    stroke: Gray;
+}
+
+.neuropile-neuron-pre,
+.neuropile-neuron-post{
+    fill-opacity: 1;
+    fill: LightGray;
+    stroke: Gray;
+}
+
+
+.neuropile-diagram-pre{
+    fill-opacity: 1;
+    fill: var(--pre-color);
+}
+
+.neuropile-diagram-post{
+    fill-opacity: 1;
+    fill: var(--post-color);
+}
+
+.neuropile-diagram-pre.neuropile-diagram-post{
+    fill-opacity: 1;
+    fill: var(--mixt-color);
+}
+
+.neuropile-diagram-pre.neuropile-diagram-post.unselected_neuropile {
+    fill: LightGray;
+    fill-opacity: 1;
+}
+
+.unselected_neuropile {
+    fill: LightGray;
+    fill-opacity: 1;
+}
+
+/* Connectors*/
+.legend-connector{
+    fill: none;
+    stroke-linecap: round;
+}
+
+.connector{
+    fill: none;
+    stroke-linecap: round;
+}
+
+.connector-clickable{
+    fill: none;
+    stroke: none;
+}
+
+.connector-clickable:hover .connector{
+    stroke-opacity: 1;
+}
+
+.excitatory-connector{
+    stroke: var(--excitatory-color);
+    marker-mid: url(#arrow-exc);
+}
+
+.inhibitory-connector{
+    stroke: var(--inhibitory-color);
+    marker-mid: url(#arrow-inh);
+}
+
+.unselected_by_neuron {
+    stroke: LightGray;
+    marker-mid: url(#arrow-hidden);
+}
+
+.unselected_connection {
+    stroke: LightGray;
+    marker-mid: url(#arrow-hidden);
+}
+
+.active-connector{
+    stroke-opacity: 1;
+    stroke: var(--highlight-color);
+}
+
+.selected_by_neuron{
+    stroke-opacity: 0.7;
+}
+
+/* Arrows */
+.arrow{
+    fill-opacity: 0.7; 
+    orient: auto;
+}
+
+/* Neurons */
+.single_neuron{
+    stroke: var(--highlight-color);
+    fill: var(--highlight-color);
+    fill-opacity: 1    ;
+}
+
+.neuron{
+    fill: none;
+}
+
+.neuron-selected-pre {
+    fill: var(--pre-color);
+    fill-opacity: 0.2;
+}
+
+.neuron-selected-post {
+    fill: var(--post-color);
+    fill-opacity: 0.2;
+}
+
+.neuron-selected-pre.neuron-selected-post {
+    fill: var(--mixt-color);
+    fill-opacity: 0.4;
+}
+
+/* Plot area*/
+.unactive-plot{
+    filter: opacity(25%);
+}
+
+#mPlotContainer::before {
+  content: '';
+  padding-top: 100%;
+  display: block;
+}
+    </style>
+  </head>
+
+  <body>
+
+ 
+    <!-- The navbar-->
+    <main>
+      <section class="container" id="MainPanel">
+	<div class="row no-gutters">
+	  A
+	  <div class="col-md-12"><!-- Diagram panel-->
+	    <div class="card"><!-- Diagram card-->  
+	      <svg id="networkDiagram"></svg>
+	    </div><!-- End diagram card-->
+	  </div><!--End diagram col -->
+	</div>
+	<div class="row no-gutters"><!-- Legend panel-->
+	  <div class="col">  
+	    <div class="card">
+		<div class="card-body">
+		  <div class="row">
+		    <div class="col col-xl-6">
+		      <h6 class="card-subtitle">Response strength</h6>
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="40">
+			  <line class="legend-connector width-connector"  x1="0" y1="20" x2="100%" y2="20" stroke="gray" data-strength="1.08"/>
+			</svg>
+			<a class="p-1">1</a>
+		      </div >
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="40">
+			  <line class="legend-connector width-connector" x1="0" y1="20"x2="100%" y2="20" stroke="gray" data-strength="0.58"/>
+			</svg>
+			<a class="p-1">0.5</a>
+		      </div>
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="40">
+			  <line class="legend-connector width-connector" x1="0" y1="20" x2="100%" y2="20" stroke="gray" data-strength="0.18"/>
+			</svg>
+			<a class="p-1">0.1</a>
+		      </div>	
+		    </div>
+		    <!-- Reliability column-->
+		    <div class="col col-xl-6">
+		      <h6 class="card-subtitle">Response reliability</h6>
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="10">
+			  <line class="legend-connector" stroke-opacity="0.74" x1="0%" y1="5" stroke-width="100%" x2="100%" y2="5" stroke="black"/>
+			</svg>
+			<a class="p-1">1</a>
+		      </div >
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="10">
+			  <line class="legend-connector" stroke-opacity="0.47" x1="0" y1="5" stroke-width="100%" x2="100%" y2="5" stroke="black"/>
+			</svg>
+			<a class="p-1">0.5</a>
+		      </div>
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="10">
+			  <line class="legend-connector" stroke-opacity="0.3" x1="0" y1="5" stroke-width="100%" x2="100%" y2="5" stroke="black"/>
+			</svg>
+			<a class="p-1">0.25</a>
+		      </div>
+		      
+		      <div class="d-flex flex-row align-items-center">
+			<svg  width="40%" height="10">
+			  <line class="legend-connector" stroke-opacity="0.09" x1="0" y1="5" stroke-width="100%" x2="100%" y2="5" stroke="black"/>
+			</svg>
+			<a class="p-1">0</a>
+		      </div>    
+		    </div><!-- End column -->
+		  </div>
+		</div>
+		<!-- Color code for connectors-->
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card">
+	      <div class="card-body">
+		<h6 class="card-subtitle">Response sign</h6>
+		<div class="d-flex flex-wrap align-items-center">
+		  <svg  width="20%" height="10">
+		    <line class="legend-connector excitatory-connector" x1="0" y1="5" stroke-width="100%" x2="100%" y2="5" stroke="black"/>
+		  </svg>
+		  <a class="p-1">Excitation</a>
+		  </div >
+		<div class="d-flex flex-row align-items-center">
+		  <svg  width="20%" height="10">
+		    <line class="legend-connector inhibitory-connector" x1="0" y1="5" stroke-width="100%" x2="100%" y2="5" stroke="black"/>
+		  </svg>
+		    <a class="p-1">Inhibition</a>
+		</div>
+	      </div><!-- End card body -->
+	    </div><!-- End card-->
+	  </div>
+
+	<div class="col">
+	  <div class="card">
+	    <div class="card-body">
+	      <h6 class="card-subtitle">Polarity</h6>
+	      <div class="d-flex flex-wrap align-items-center">
+		<svg  width="20%" height="20">
+		  <rect id="preLegend" x="0" y="0" width="100%" height="100%"/>
+		</svg>
+		<a class="p-1">Presynaptic</a>
+	      </div>
+	      <div class="d-flex flex-wrap align-items-center">
+		<svg  width="20%" height="20">
+		  <rect id="postLegend" x="0" y="0" width="100%" height="100%"/>
+		</svg>
+		<a class="p-1">Postsynaptic</a>
+		  </div>
+	      <div class="d-flex flex-row align-items-center">
+		<svg  width="20%" height="20">
+		  <rect id="mixedLegend" x="0" y="0" width="100%" height="100%"/>
+		</svg>
+		<a class="p-1">Mixed</a>
+		  </div>
+	    </div>
+	      </div><!-- End Polarity card-->
+	</div><!-- End card column-->
+	</div>
+
+	
+	<div class="row no-gutters">
+	  B
+	  <div class="col-md-12">
+	    <div class="card">
+	      <div class="card-body">
+		<div  class="d-block"  id="mPlotContainer">
+		  <div style="position: absolute; top:0; left: 0; right: 0; bottom: 0" id="matrixPlot"></div>
+		</div>
+	      </div>
+	    </div>
+	    
+	  
+</section>
+
+</main>
+    <footer class="container-fluid">
+    </footer>
+    <script type="text/javascript" src="full_data.js"></script>
+    <script type="text/javascript" src="avg_data.js"></script>
+    <script type="text/javascript" src="pairsToExp.js"></script>
+    <script type="text/javascript" src="drivers.js"></script>
+    <script type="text/javascript" src="supertypes.js"></script>
+    <script type="text/javascript" src="neurontypes.js"></script>
+    <script type="text/javascript" src="summaryData.js"></script>
+    <script type="text/javascript" src="superSummary.js"></script>
+    <script type="text/javascript" src="perRunData.js"></script>
+    <script type="text/javascript" src="variableDefs.js"></script>
+
+    <script>
+      	/// Matrix plot layout
+let matlayout = {
+   // width: 800,
+    // height: 800,
+//    autosize: true,
+    xaxis: {
+	title: "Post-synaptic candidate",
+	autorange: true,
+	tickvals: Object.keys(NEURON_TYPES),
+	ticktext: Object.keys(NEURON_TYPES).map(function(n){return(NEURON_TYPES[n]["short_name"])})
+    },
+    yaxis: {
+	title: "Pre-synaptic candidate",
+	autorange: true,
+	tickvals: Object.keys(NEURON_TYPES),
+	ticktext: Object.keys(NEURON_TYPES).map(function(n){return(NEURON_TYPES[n]["short_name"])})
+    },
+    margin: {
+	b:150,
+	t:20,
+	l: 120},
+    hovermode: 'closest',
+    legend: {orientation: "h",
+	     x: 0,
+	     y: -0.13
+	    }
+    
+			       };
+			       /// Matrix plot
+function makeMatrixPlot(metric){
+    let matstat= Object.keys(NEURON_TYPES).map(function(pre){
+	return(Object.keys(NEURON_TYPES).map(function(post){
+	    if(SUPER_SUMMARY[pre+"-to-"+post] === undefined){
+		return(NaN)
+	    }else{return(SUPER_SUMMARY[pre+"-to-"+post][metric])};
+	}));	
+    });
+    
+    let statVals = Object.values(SUPER_SUMMARY).map(function(st){return(st[metric])})
+    var midPoint = -Math.min(...statVals)/(Math.max(...statVals)-Math.min(...statVals))
+
+    let overlaps = Object.keys(SUPER_SUMMARY).map(function(k){
+	if (SUPER_SUMMARY[k]["expType"]==="Overlapping"){
+	    return(k.split("-to-"));
+	};
+    });
+    
+    overlaps = overlaps.filter(function(item){
+	return typeof item ==='object';  
+    });
+
+    let overlapsY = overlaps.map(function(o){return(o[0])});
+    let overlapsX = overlaps.map(function(o){return(o[1])});
+
+    var matdata = [
+	{
+	    z: matstat,    // The heatmap
+	    x: Object.keys(NEURON_TYPES),
+	    y: Object.keys(NEURON_TYPES),
+	    colorscale: [[0,INH_COLOR],[midPoint,'rgb(217,217,217)'],[1,EXC_COLOR]],
+	    type: 'heatmap',
+	    hoverinfo: "y+x+z"
+	},
+	{// The identity line
+	    x: Object.keys(NEURON_TYPES),
+	    y: Object.keys(NEURON_TYPES),
+	    type: "scatter",
+	    mode:"lines",
+            line: {dash: 'dash',
+		   color: 'lightgray'},
+	    showlegend: false,
+	    hoverinfo: 'skip'
+	},
+	{// The overlaps marker
+	    x: overlapsX,
+	    y:overlapsY,
+	    type: "scatter",
+	    mode: "markers",
+	    marker: {
+		color: HGH_COLOR,
+	//	size: 14,
+		symbol: "square-open"
+	    },
+	    name: "Anatomical overlap",
+	    hoverinfo: 'skip'
+	},
+	{ x: [],     // The marker for the selected pair
+	  y:[],
+	  type: "scatter",
+	  mode: "markers",
+	  marker: {
+	      color: HGH_COLOR,
+          //    size: 10
+	  },
+	  showlegend: false,
+	  hoverinfo: 'skip'
+	}
+    ];
+    
+    Plotly.newPlot('matrixPlot',matdata,matlayout,{displaylogo: false})
+}
+      
+      $(function () {
+      $('[data-toggle="popover"]').popover()
+      })
+      
+      //sT is the full drawing
+      var sT = Snap("#networkDiagram");
+      var s = sT.group();
+      s.rect()
+    .attr({width: "100%",
+	   height: "100%",
+	   fill: "white"});
+
+      const DIAGRAM_WIDTH = 6350;
+      const DIAGRAM_HEIGHT = 3000;
+      const SCALE_LINKS = 30;
+      sT.attr({viewBox: [0,0,DIAGRAM_WIDTH,DIAGRAM_HEIGHT]});
+
+      //// DEFINING MARKERS FOR LINKS /////////////////
+
+      s.path("M0,0 L0,3 L4.5,1.5 z")
+      .marker(0,0,5,5,3.5,1.5)
+      .addClass("arrow")
+      .attr({"markerUnits": "strokeWidth",
+      "id": "arrow-exc",
+      "stroke": "none",
+      "fill": EXC_COLOR//Snap.flat.pomegranate
+      }).toDefs();
+      
+      s.path("M0,0 L0,3 L4.5,1.5 z")
+      .marker(0,0,5,5,3.5,1.5)
+      .addClass("arrow")
+      .attr({
+      "markerUnits": "strokeWidth",
+      "id": "arrow-inh",
+      "fill": INH_COLOR//Snap.flat.belizehole
+      }).toDefs();
+      
+      s.path("M0,0 L0,3 L4.5,1.5 z")
+      .marker(0,0,5,5,3.5,1.5)
+      .addClass("arrow")
+      .attr({
+      "markerUnits": "strokeWidth",
+      "id": "arrow-hidden",
+      "fill": "LightGray"
+      }).toDefs();
+
+      let scale_factor = (sT.node.getBoundingClientRect().height/DIAGRAM_HEIGHT)//*(199/strLegend.node.getBoundingClientRect().width);
+      console.log(scale_factor)
+      
+      $(".legend-connector.width-connector").map(function(){
+      $(this).data("virtualwidth",parseFloat(SCALE_LINKS*Math.sqrt($(this).data("strength")))*scale_factor)
+      $(this).css("stroke-width",$(this).data("virtualwidth"));
+      })
+
+      Snap.load("images/CXSchematicAnnotatedWithNeurons.svg",function(f){
+    // This is the neuropile drawing, which has some attributes we'll need
+    const CX = f.select("g[id='central complex']");
+    const CX_TRANS = CX.attr("transform");
+    let neuropile_fragments = new Map;
+    for (let np in NEUROPILES_FULL_NAMES){
+        let myNp = s.append(CX.select("g[id='"+NEUROPILES_FULL_NAMES[np]+"']"));
+        neuropile_fragments[NEUROPILES_FULL_NAMES[np]]=
+            Snap("g[id='"+NEUROPILES_FULL_NAMES[np]+"']").toDefs();
+    };
+
+    //////////////// DRAW THE DIAGRAM ///////////////////////////
+    
+    
+    const XCOLU = 800;
+    const YCOLU = 1000;
+
+    drawNeuronClass(f,"EB columnar",neuropile_fragments,CX_TRANS,[XCOLU,YCOLU],[550,100]);
+    
+    drawNeuronClass(f,"FB columnar",neuropile_fragments,CX_TRANS,[XCOLU+550*4+100,YCOLU],[550,100]);
+    
+    drawNeuronClass(f,"Ring neuron",neuropile_fragments,CX_TRANS,[XCOLU-800,YCOLU+700],[-80,-300]);
+    
+    drawNeuronClass(f,"PB input",neuropile_fragments,CX_TRANS,[XCOLU+550*4,YCOLU-900],[1000,0]);
+    
+    drawNeuronClass(f,"PB interneuron",neuropile_fragments,CX_TRANS,[XCOLU+500,YCOLU-700],[600,0]);
+
+    drawNeuronClass(f,"LAL-NO",neuropile_fragments,CX_TRANS,[XCOLU+550*2,YCOLU+900],[750,80]);
+
+    drawNeuronClass(f,"LAL-IN",neuropile_fragments,CX_TRANS,[XCOLU+550*8+350,YCOLU+600],[800,0]);
+    
+    drawNeuronClass(f,"FB input",neuropile_fragments,CX_TRANS,[XCOLU+550*8+300,YCOLU-500],[100,500]);
+  
+    // Draw the links
+    Object.keys(SUMMARY_DATA).forEach(function(pair){
+	let d = SUMMARY_DATA[pair]["20"];
+	d.cellPair = pair;
+	let summ = SUPER_SUMMARY[pair];
+	
+        if ((s.select("g[id='"+d.preNeuron+"']") != null) & (s.select("g[id='"+d.postNeuron+"']") != null)){//& (d.preNeuron != d.postNeuron)){
+            drawLink(d,summ);
+	};	
+      });
+      ////////END DRAWING/////////////////////////
+    $(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+    })
+});
+
+      /// FUNCTIONS DEFINITIONS //////
+function drawNeuron(drawing,parent,neuron_type,frags,CX_TRANS,position){
+    // Draw the neuron :
+    g = s.group().attr({transform: "translate("+position[0]+","+position[1]+")",
+                        id: "Full-"+neuron_type,
+		        "data-neuron": neuron_type//,
+			//"data-selected": false
+		        });   
+
+    g.addClass("neuron")
+    // First the neuropiles
+    drawNeuropiles(NEURON_TYPES[neuron_type].innervates,g,"neuropile-diagram",neuron_type+"-","",CX_TRANS,frags,false,NEURON_TYPES[neuron_type].pre,NEURON_TYPES[neuron_type].post)
+   
+    // Then the neuron itself
+    neuron = drawing.select("g[id='"+neuron_type+"']");
+    neuron.addClass("single_neuron");
+    g.add(neuron);
+    
+    let neuronBox = g.getBBox();
+    let neuronTrans = g.transform().localMatrix.invert();
+    let neuronBoxRect=s.rect(neuronTrans.x(neuronBox.x,neuronBox.y),neuronTrans.y(neuronBox.x,neuronBox.y),neuronBox.w,neuronBox.h,30,30);
+
+    g.prepend(neuronBoxRect);
+
+    var title = Snap.parse('<title>'+NEURON_TYPES[neuron_type].short_name+
+			   "&#13"+neuron_type+'</title>');
+    g.append(title);
+        
+    return g
+}
+
+function drawNeuropiles(neuropiles,
+			parent,
+			class_name,
+			id_pre,
+			id_post,
+			transfo,
+			frags,
+			add_title=false,
+			preRegions=[],
+			postRegions=[]){
+    for (let np of neuropiles){
+	//let npile_templ = drawing.group();
+	let npile = frags[NEUROPILES_FULL_NAMES[np]].use().addClass(class_name).attr({
+										      transform: transfo,
+										      id: id_pre+NEUROPILES_FULL_NAMES[np]+id_post,
+										      np: np
+										     });
+	//npile_templ.append(npile)
+	if (preRegions.includes(np)){
+	    npile.addClass("neuropile-diagram-pre")
+	}
+	if (postRegions.includes(np)){
+	    npile.addClass("neuropile-diagram-post")
+	}
+	if (add_title == true){
+	    let  title = Snap.parse('<title>'+NEUROPILES_FULL_NAMES[np]+'</title>');
+	    npile.append(title);
+	}
+	parent.append(npile);
+    };
+}
+
+function drawNeuronClass(drawing,supertype,frags,CX_TRANS,start_position,position_offset){
+    let class_g = s.group().attr({id: supertype});
+    for (let nr of SUPERTYPES[supertype]){
+	if (drawing.select("g[id='"+nr+"']") != null){
+            var neuro = drawNeuron(drawing,class_g,nr,frags,CX_TRANS,start_position);
+            class_g.append(neuro);
+            s.append(class_g);
+         for (j in [0,1]){start_position[j]=start_position[j]+position_offset[j]};
+       };
+    };
+}
+
+function guessConnectionLocation(preNeuron,postNeuron){
+    let res = $(preNeuron.pre).filter(postNeuron.post);
+    if (res.length == 0){
+	res = $(preNeuron.innervates).filter(postNeuron.innervates);
+    };
+    return(res[0])  /// We'll go with the first answer.
+}
+
+//function drawLink(preNeuron,postNeuron,strength,reliability){
+function drawLink(table_line,summary_line){
+   
+    let connection_loc = guessConnectionLocation(NEURON_TYPES[table_line.preNeuron],
+						 NEURON_TYPES[table_line.postNeuron]);
+
+    let start_neuron = s.select("g[id='Full-"+table_line.preNeuron+"']");
+    let end_neuron = s.select("g[id='Full-"+table_line.postNeuron+"']");
+    
+    
+    // Firefox doesn't return anything with the Snap getBBox function... Apparently Firefox is respecting the svg specifications better
+    // so we change to this "safe version"
+    let start_box = s.select("use[id='"+table_line.preNeuron+"-"+ NEUROPILES_FULL_NAMES[connection_loc]+"']").node.getBBox();
+    let start_points=[
+	{x: start_box.x+start_box.width, y:start_box.y+start_box.height/2},
+	{x: start_box.x, y:start_box.y+start_box.height/2},
+        {x: start_box.x+start_box.width/2, y:start_box.y},
+        {x: start_box.x+start_box.width/2, y:start_box.y+start_box.height}
+    ];
+    let end_box = s.select("use[id='"+table_line.preNeuron+"-"+ NEUROPILES_FULL_NAMES[connection_loc]+"']").node.getBBox();
+    let end_points=[
+        {x: end_box.x+end_box.width, y:end_box.y+end_box.height/2},
+	{x: end_box.x, y:end_box.y+end_box.height/2},
+        {x: end_box.x+end_box.width/2, y:end_box.y},
+        {x: end_box.x+end_box.width/2, y:end_box.y+end_box.height}
+    ];
+    let start_transfo = start_neuron.transform()
+        .localMatrix.add(s.select("use[id='"+table_line.preNeuron+"-"+ NEUROPILES_FULL_NAMES[connection_loc]+"']").transform().localMatrix);
+    let end_transfo = end_neuron.transform()
+        .localMatrix.add(s.select("use[id='"+table_line.preNeuron+"-"+ NEUROPILES_FULL_NAMES[connection_loc]+"']").transform().localMatrix);
+    
+    
+    start_points = start_points.map(st => ({x: start_transfo.x(st.x,st.y),
+                                            y: start_transfo.y(st.x,st.y)}));
+    
+    end_points = end_points.map(st => ({x: end_transfo.x(st.x,st.y),
+					y: end_transfo.y(st.x,st.y)}));
+    
+    
+    let linkLength = 500000;
+    for (st of start_points){
+	for (ed of end_points){
+            linkLengthNew = Snap.len(st.x,st.y,ed.x,ed.y);
+            if (linkLengthNew < linkLength){
+		linkLength = linkLengthNew;
+		start_loc = st;
+		end_loc = ed;
+            };
+	};
+    };
+    
+    let linkStr = "M"+start_loc.x+" "+start_loc.y
+        +"R "+((end_loc.x+start_loc.x)/2-(end_loc.y-start_loc.y)/7)+" "+((end_loc.y+start_loc.y+40)/2-(end_loc.x-start_loc.x)/7)+" "+
+    end_loc.x+" "+ end_loc.y;
+    
+    let link_alpha = Math.log(Number(table_line.between_runs_corr)+1.1);
+    
+    let g = s.group().attr({
+	"data-link": table_line.cellPair,
+	"data-pre": table_line.preNeuron,
+	"data-post": table_line.postNeuron
+    });
+
+    let link = s.path(linkStr).attr({
+	id: table_line.cellPair,
+	"connection_location": connection_loc,
+	"data-pre": table_line.preNeuron,
+	"data-post": table_line.postNeuron
+    });
+    
+    if (start_neuron == end_neuron){
+	g.attr({"visibility": "hidden"})
+    };
+ 
+    if (!summary_line.signif1){
+        g.addClass("virtual-connector")
+    };
+    
+    let link_outline = s.path(linkStr)
+        .attr({id: table_line.cellPair+"_outline",
+	       stroke: "transparent",    
+               "stroke-width": 50
+              });
+        
+    if (table_line.integNorm < 0){
+	strength = -summary_line.distanceNorm + 0.08//- table_line.integNorm * 4;
+	link.addClass("inhibitory-connector")
+    } else {
+	strength = summary_line.distanceNorm + 0.08//table_line.integNorm;
+	link.addClass("excitatory-connector")
+    }
+    link.attr({"stroke-width": SCALE_LINKS*Math.sqrt(strength)});
+    
+    if (summary_line.expType !== "Overlapping"){
+	link.attr({"stroke-dasharray": "30,20"});
+    };
+    
+    link.addClass("connector");
+    g.addClass("connector-clickable");
+  
+    link.node.setAttribute("stroke-opacity",link_alpha)
+    //.node.setAttribute("fill-opacity",link_alpha)
+    
+    let title = Snap.parse('<title>'+table_line.cellPair+
+                           '&#13Normalized response : '+Number(table_line.integNorm).toFixed(3)+
+                           '&#13Normalized response 95% CI : '+Number(table_line.integNormCILow).toFixed(3)+' , '
+                           +Number(table_line.integNormCIUp).toFixed(3)+
+                           '&#13Repeats correlations : '+Number(table_line.repeats_corr).toFixed(3)+
+    			   '&#13Runs correlations : '+Number(table_line.between_runs_corr).toFixed(3)+'</title>')  ;
+
+    
+    g.append(link_outline);  
+    g.append(link);
+    g.append(title);
+			       }
+
+	/// Plot the matrix plot
+			       makeMatrixPlot("distanceNorm");
+
+    </script>
+
+   
+  </body>
+</html>
