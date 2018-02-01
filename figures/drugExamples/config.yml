@@ -1,15 +1,15 @@
 ---
 version: 2
 multicolumn: false
-web-width: '2400'
+web-width: '1000'
 align: center
 float: h!
 grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/drugExamples/mecaPlots.html
-    type: html
+  - path: figures/drugExamples/mecaPlots.svg
+    type: static
     from:
     - 1
     - 1
@@ -17,5 +17,5 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/drugExamples"
-    url: "/users/14026/articles/155729/master/file/figures/drugExamples/mecaPlots.html"
+    url: "/users/14026/articles/155729/master/file/figures/drugExamples/mecaPlots.svg"
 export-width: '1000'
