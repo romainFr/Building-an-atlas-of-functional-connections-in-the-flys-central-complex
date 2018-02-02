@@ -205,18 +205,13 @@
     filter: opacity(25%);
 }
 
-/*#mPlotContainer::before {
+#mPlotContainer::before {
   content: '';
   padding-top: 100%;
   display: block;
-      }*/
+      }
 
-      @media (min-width: 800px) {
-    .container{
-      max-width: 800px;
-      margin-left: 50px;
-    }
-}
+
     </style>
   </head>
 
@@ -225,10 +220,10 @@
  
     <!-- The navbar-->
     <main>
-      <section class="container" id="MainPanel">
+      <section class="container-fluid" id="MainPanel">
 	<font size="3">A</font>
 	<div class="row no-gutters">
-	  <div class="col-md-10"><!-- Diagram panel-->
+	  <div class="col-md-5"><!-- Diagram panel-->
 	    <div class="card"><!-- Diagram card-->  
 	      <svg id="networkDiagram" viewBox="0 0 6350 3000"><desc>Created with Snap</desc><defs><marker viewBox="0 0 5 5" markerWidth="5" markerHeight="5" orient="auto" refX="3.5" refY="1.5" id="arrow-exc" class="arrow" markerUnits="strokeWidth" style="" stroke="none" fill="#b88784"><path d="M0,0 L0,3 L4.5,1.5 z"></path></marker><marker viewBox="0 0 5 5" markerWidth="5" markerHeight="5" orient="auto" refX="3.5" refY="1.5" id="arrow-inh" class="arrow" markerUnits="strokeWidth" style="" fill="#4e9496"><path d="M0,0 L0,3 L4.5,1.5 z"></path></marker><marker viewBox="0 0 5 5" markerWidth="5" markerHeight="5" orient="auto" refX="3.5" refY="1.5" id="arrow-hidden" class="arrow" markerUnits="strokeWidth" style="" fill="#d3d3d3"><path d="M0,0 L0,3 L4.5,1.5 z"></path></marker><g id="Protocerebral_bridge">
       <path id="PBG1L" transform="matrix(1,0,0,-1,-1692,2376)" d="m2015.9 2311.6 4.4414-46.285c-10.938-2.0742-16.879-0.8085-16.879-0.8085l-0.043 0.043 0.074 38.738c1.3476-0.1094 2.5976-0.062 3.6406 0.3906 2.8515 2.6992 6.0117 5.5469 8.7656 7.9219z"></path>
@@ -815,7 +810,7 @@ Runs correlations : -0.005</title></g></g></svg>
 	    </div><!-- End diagram card-->
 	  </div><!--End diagram col -->
 
-	  <div class="col-md-2"><!-- Legend panel-->
+	  <div class="col-md-1"><!-- Legend panel-->
 	    <div class="card-column">  
 	      <div class="card">
 		<div class="card-body">
@@ -923,7 +918,7 @@ Runs correlations : -0.005</title></g></g></svg>
 	
 	<div class="row no-gutters">
 	  <font size="3">B</font>
-	  <div class="col-md-12">
+	  <div class="col-md-6">
 	    <div class="card">
 	      <div class="card-body">
 		<div class="d-block" id="mPlotContainer">
