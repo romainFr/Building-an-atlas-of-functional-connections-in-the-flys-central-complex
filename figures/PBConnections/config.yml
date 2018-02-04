@@ -8,8 +8,8 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/PBConnections/SubDiagrams.svg
-    type: static
+  - path: figures/PBConnections/figureMotifs.html
+    type: html
     from:
     - 1
     - 1
@@ -17,5 +17,5 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/PBConnections"
-    url: "/users/14026/articles/155729/master/file/figures/PBConnections/SubDiagrams.svg"
+    url: "/users/14026/articles/155729/master/file/figures/PBConnections/figureMotifs.html"
 export-width: '425'
