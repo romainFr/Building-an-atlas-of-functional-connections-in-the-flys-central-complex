@@ -8,8 +8,8 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/statistics_histograms/statistics_histograms_SI.html
-    type: html
+  - path: figures/statistics_histograms/statistics_histograms_SI.svg
+    type: static
     from:
     - 1
     - 1
@@ -17,5 +17,5 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/statistics_histograms"
-    url: "/users/14026/articles/155729/master/file/figures/statistics_histograms/statistics_histograms_SI.html"
+    url: "/users/14026/articles/155729/master/file/figures/statistics_histograms/statistics_histograms_SI.svg"
 export-width: '400'
