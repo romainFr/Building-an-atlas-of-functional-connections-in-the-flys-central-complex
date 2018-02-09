@@ -8,8 +8,8 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/matIntegNorm/Screenshot-2018-2-2 Results figure.png
-    type: static
+  - path: figures/matIntegNorm/resultsFigureLight.html
+    type: html
     from:
     - 1
     - 1
@@ -17,6 +17,6 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/matIntegNorm"
-    url: "/users/14026/articles/155729/master/file/figures/matIntegNorm/Screenshot-2018-2-2%20Results%20figure.png"
+    url: "/users/14026/articles/155729/master/file/figures/matIntegNorm/resultsFigureLight.html"
 export-width: '500'
 export-filename: Screenshot-2018-2-2 Results figure.png
