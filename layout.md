@@ -2,8 +2,6 @@ abstract.html
 untitled.html
 figures/FigureDescription
 57flvg6jn6o.html
-qs0nba6j24o.html
-fqehisnqhl.html
 9b7f.html
 figures/FigureProtocol
 bvsi6e7cds8.html
