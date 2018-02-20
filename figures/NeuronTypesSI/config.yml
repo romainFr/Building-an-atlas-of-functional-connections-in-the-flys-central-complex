@@ -8,7 +8,7 @@ grid:
   rows: 1
   columns: 1
   grid_elements:
-  - path: figures/NeuronTypesSI/NeuronTypesSI.svg
+  - path: figures/NeuronTypesSI/NeuronTypes.svg
     type: static
     from:
     - 1
@@ -17,5 +17,5 @@ grid:
     - 1
     - 1
     folder_url: "/users/14026/articles/155729/master/folder/figures/NeuronTypesSI"
-    url: "/users/14026/articles/155729/master/file/figures/NeuronTypesSI/NeuronTypesSI.svg"
+    url: "/users/14026/articles/155729/master/file/figures/NeuronTypesSI/NeuronTypes.svg"
 export-width: '453'
