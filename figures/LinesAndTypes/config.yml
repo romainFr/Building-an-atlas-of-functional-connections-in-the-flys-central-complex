@@ -19,5 +19,5 @@ grid:
     folder_url: "/users/14026/articles/155729/master/folder/figures/LinesAndTypes"
     treatFirstLineAsHeader: true
     url: "/users/14026/articles/155729/master/file/figures/LinesAndTypes/LinesAndTypes.csv"
-    maxRows: '20'
-    maxColumns: '7'
+    maxRows: ''
+    maxColumns: '5'
