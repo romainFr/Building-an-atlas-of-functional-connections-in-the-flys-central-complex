@@ -16,6 +16,7 @@ figures/LinesAndTypes
 c7urra8mges.html
 figures/NeuronTypesSI
 qk64mmcvtno.html
+figures/SIFigureNonOverlapping
 figures/statistics_histograms
 v41vknmcp3g.html
 figures/drugExamples
