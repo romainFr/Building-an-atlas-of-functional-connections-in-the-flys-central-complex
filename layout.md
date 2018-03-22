@@ -9,6 +9,7 @@ figures/ResponseCharac
 cujl4tn7dso.html
 vd3jimqoe4.html
 235428sk7s8.html
+figures/resultsFigureLight
 53dt27m839o.html
 figures/PBConnections
 878t3ut5a9o.html
