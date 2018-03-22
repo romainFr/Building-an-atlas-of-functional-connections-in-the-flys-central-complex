@@ -8,7 +8,6 @@ bvsi6e7cds8.html
 figures/ResponseCharac
 cujl4tn7dso.html
 vd3jimqoe4.html
-figures/resultsFigureLight
 figures/PBConnections
 878t3ut5a9o.html
 figures/LinesAndTypes
