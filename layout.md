@@ -18,7 +18,6 @@ figures/NeuronTypesSI
 qk64mmcvtno.html
 figures/SIFigureNonOverlapping
 figures/statistics_histograms
-v41vknmcp3g.html
 figures/drugExamples
 figures/picroSI
 1sln5hkm5o.html
