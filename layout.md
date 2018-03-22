@@ -7,7 +7,6 @@ figures/FigureProtocol
 bvsi6e7cds8.html
 figures/ResponseCharac
 cujl4tn7dso.html
-figures/matIntegNorm
 vd3jimqoe4.html
 figures/PBConnections
 878t3ut5a9o.html
