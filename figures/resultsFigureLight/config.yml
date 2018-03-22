@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: 500px
+web-width: '1300'
 align: center
 float: h!
 grid:
@@ -18,3 +18,4 @@ grid:
     - 1
     url: "/users/14026/articles/155729/master/file/figures/resultsFigureLight/resultsFigureLight.html"
     folder_url: "/users/14026/articles/155729/master/folder/figures/resultsFigureLight"
+export-width: '425'
