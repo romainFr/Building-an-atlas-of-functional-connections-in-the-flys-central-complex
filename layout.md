@@ -16,6 +16,8 @@ figures/PBConnections
 figures/LinesAndTypes
 1562e.html
 c7urra8mges.html
+6oqh9j61khs.tex
+dtvk2ik18fc.html
 figures/NeuronTypesSI
 qk64mmcvtno.html
 figures/SIFigureNonOverlapping
